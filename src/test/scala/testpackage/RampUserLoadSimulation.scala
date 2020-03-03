@@ -19,9 +19,9 @@ class RampUserLoadSimulation extends Simulation {
   def rampDuration: Int = getProperty("RAMP_DURATION", "10").toInt
 
   before {
-    println(s"user count ${userCount}")
-    println(s"ramp users ${rampUser}")
-    println(s"ramp duration ${rampDuration}")
+    println(s"user count: ${userCount}")
+    println(s"ramp users: ${rampUser}")
+    println(s"ramp duration: ${rampDuration}")
   }
 
   after(
