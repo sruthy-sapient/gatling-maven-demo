@@ -1,0 +1,6 @@
+{
+  "userId": 0,
+  "id": "${id}",
+  "title": "${title}",
+  "body": "string"
+}
