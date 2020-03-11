@@ -1,4 +1,4 @@
-package computerdatabase
+package testpackage
 
 import io.gatling.core.Predef._
 import io.gatling.core.session

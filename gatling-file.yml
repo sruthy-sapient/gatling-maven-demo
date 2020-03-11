@@ -1,0 +1,8 @@
+execution:
+  - executor: gatling
+    scenario: PlaceHolderTypiCodeDataExtract
+
+scenarios:
+  PlaceHolderTypiCodeDataExtract:
+    script: src\test\scala\Engine.scala
+    simulation: testpackage.PlaceHolderTypiCodeDataExtract
