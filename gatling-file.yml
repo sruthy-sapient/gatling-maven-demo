@@ -1,8 +1,14 @@
 execution:
   - executor: gatling
-    scenario: PlaceHolderTypiCodeDataExtract
+    scenario:
+      - PlaceHolderTypiCodeDataExtract
+      - CodeReuseWithObjects
 
 scenarios:
   PlaceHolderTypiCodeDataExtract:
     script: src\test\scala\Engine.scala
     simulation: testpackage.PlaceHolderTypiCodeDataExtract
+
+  CodeReuseWithObjects:
+    script: src\test\scala\Engine.scala
+    simulation: testpackage.CodeReuseWithObjects
